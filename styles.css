@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* width:90vw; */
+  height: 90vh;
+  background-color: #e2e4e3;
+  font-family: sans-serif
+
+}
+section {
+  /* width: 100vw; */
+}
+#container {
+  margin-inline: 10%;
+}
+#header-items {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  list-style: none;
+  font-family: sans-serif
+}
+.li {
+    color: #3c824e;
+    font-size: 14px;
+    border: 1.5px solid #ddd;
+    padding: 5px;
+    font-weight: 500;
+}
+
+
+#menu-container {
+  display: flex;
+  margin-top: 32px;
+  justify-content: space-between;
+  border: 2px solid grey;
+  padding: 20px;
+  background-color: #e2e4e3;
+  margin-bottom: 32px;
+}
+
+.menu-header {
+  background-color: #e2e4e3;
+  padding: 10px;
+  font-size: 14px;
+  color: #333
+}
+.menu-right {
+ width: 40%
+}
+.menu-right h2 {
+    text-align: right;
+  
+}
+.menu-left {
+  width: 55%
+}
+.menu-header-line {
+  border: 2px solid #e2cd96;
+  background-color: #e2cd96;
+  margin-top: 5px
+}
+.card {
+  background-color: #3f8551;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px;
+  font-weight: 400px;
+  line-height: 16px;
+  font-size: 16px;
+  color: rgb(59, 74, 84);
+  width: 100%
+}
+
+.icon {
+    width: 38%
+}
+
+.icon img{ 
+    width: 100%
+}
+.start-registration {
+    width: 60%
+}
+.card .start-registration {
+  display: flex;
+  flex-direction: column;
+  align-items: space-around;
+  height: 100%;
+  margin-left: auto;
+}
+.card .start-registration p {
+  text-align: right;
+  font-weight: 500px;
+  line-height: 24px;
+  font-size: 16px;
+  color: white;
+  padding-top: 10px;
+}
+.start-btn {
+  background-color: #18cc5d;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 6px;
+  width: 100%;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 32px;
+}
+.retrieve-btn {
+  border: none;
+  padding: 10px 20px;
+  color: black;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 10px;
+  font-weight: 300px;
+  margin-top: 32px;
+}
+.menu-content {
+  margin-top: 30px;
+  background: #EAEFF2;
+  padding: 25px;
+  border-radius: 8px;
+  padding-bottom: 140px
+
+ 
+}
+.menu-content-right {
+  margin-top: 30px;
+  background: #fff;
+  border-radius: 8px;
+  padding-bottom: 140px
+
+ 
+}
+
+#enrolment {
+    font-weight: 700;
+    color: green
+  }
+.menu-content div p {
+  margin-bottom: 10px;
+  font-weight: 400px;
+  line-height: 26px;
+  font-size: 16px;
+  color: #3c824e;
+}
+.menu-content div h3 {
+  margin-top: 25px;
+}
+.menu-content div ol {
+  margin-top: 32px;
+  margin-left: 27px;
+}
+.menu-content div ol li {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.retrieve-card {
+  margin-top: 40px;
+}
+.menu-content-right {
+  background-color: #e2e4e3;
+}
+
+@media screen and (max-width: 1116px) {
+    .menu-left {
+      width: 50%
+    }
+    .menu-right {
+        width: 47%
+       }
+       
+}
+@media screen and (max-width: 900px) {
+
+    #menu-container {
+        display: block;
+      
+      }
+      .menu-left {
+        width: 100%
+      }
+      .menu-right {
+        width: 100%;
+        margin-top: 42px
+       }
+
+       .card .start-registration p {
+        
+      }
+}
+
